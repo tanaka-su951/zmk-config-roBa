@@ -21,4 +21,4 @@ board: ["seeeduino_xiao_ble"]
 shield: ["roBa_R","roBa_L","settings_reset"]
 include:
   - board: seeeduino_xiao_ble
-    shield: rgbled_adapter
+    shield: rghummingbird rgbled_adapter
