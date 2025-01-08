@@ -2,15 +2,18 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: kumamuk-git
-      url-base: https://github.com/kumamuk-git
+    - name: mentako-ya
+      url-base: https://github.com/mentako-ya
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: kumamuk-git
+      remote: mentako-ya
+      revision: main
+    - name: zmk-rgbled-widget
+      remote: mentako-ya
       revision: main
   self:
     path: config
