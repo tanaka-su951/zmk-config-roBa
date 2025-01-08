@@ -1,5 +1,6 @@
 #include "roBa.dtsi"
 
+/*
 &kscan0 {
         col-gpios
             = <&xiao_d 10 GPIO_ACTIVE_HIGH>
@@ -10,7 +11,13 @@
             , <&gpio0 9 GPIO_ACTIVE_HIGH>
             ;
 };
+*/
+
 
 &left_encoder {
+    status = "okay";
+};
+
+&right_encoder {
     status = "okay";
 };
