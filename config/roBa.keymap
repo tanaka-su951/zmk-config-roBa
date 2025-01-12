@@ -4,6 +4,10 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "keycode_japanese.h"
 
+#define MOUSE 4
+#define SCROLL 5
+#define NUM 6
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
