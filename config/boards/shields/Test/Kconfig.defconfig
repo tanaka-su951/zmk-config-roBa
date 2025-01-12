@@ -20,3 +20,13 @@ config ZMK_SPLIT
     default y
 
 endif
+
+if SHIELD_ROBA_FOOT
+
+config ZMK_KEYBOARD_NAME
+    default "roBa_FOOT"
+
+config ZMK_SPLIT
+    default y
+
+endif
