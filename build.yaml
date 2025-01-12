@@ -18,4 +18,4 @@
 #
 ---
 board: ["seeeduino_xiao_ble"]
-shield: ["roBa_R rgbled_adapter", "roBa_L rgbled_adapter", "settings_reset"]
+shield: ["roBa_R rgbled_adapter", "roBa_L rgbled_adapter", "roBa_FOOT rgbled_adapter", "settings_reset"]
