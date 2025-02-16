@@ -1,4 +1,4 @@
-#include "mtk.dtsi"
+#include "mtk64.dtsi"
 
 /*
 &kscan0 {
