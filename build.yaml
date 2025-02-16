@@ -19,11 +19,11 @@
 ---
 include:
  - board: seeeduino_xiao_ble
-   shield: roBa_R rgbled_adapter
+   shield: mtk64_R rgbled_adapter
    snippet: studio-rpc-usb-uart
  - board: seeeduino_xiao_ble
-   shield: roBa_L rgbled_adapter
+   shield: mtk64_L rgbled_adapter
 # - board: seeeduino_xiao_ble
-#   shield: roBa_FOOT rgbled_adapter
+#   shield: mtk64_FOOT rgbled_adapter
  - board: seeeduino_xiao_ble
    shield: settings_reset
