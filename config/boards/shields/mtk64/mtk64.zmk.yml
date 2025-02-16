@@ -1,8 +1,8 @@
 file_format: "1"
-id: roBa
-name: roBa
+id: mtk64
+name: mtk64
 type: shield
-url: https://github.com/kumamuk-git/zmk-config-roBa
+url: https://github.com/mentako-ya/zmk-config-mtk64
 requires: [seeeduino_xiao_ble]
 features:
   - keys

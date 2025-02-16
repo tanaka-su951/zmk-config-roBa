@@ -1,4 +1,4 @@
-#include "roBa.dtsi"
+#include "mtk64.dtsi"
 
 &default_transform {
     row-offset = <14>;
