@@ -1,6 +1,6 @@
 #include "roBa.dtsi"
 
 &default_transform {
-    col-offset = <14>;
+    row-offset = <14>;
 };
 

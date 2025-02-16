@@ -16,14 +16,15 @@
 
         default_layer {
             bindings = <
-&kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL &kp JP_MINUS
+&kp ESC   &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                                &kp N6 &kp N7   &kp N8    &kp N9  &kp N10      &kp JP_MINUS
 &kp TAB   &kp Q  &kp W  &kp E    &kp R    &kp T                                 &kp Y  &kp U    &kp I     &kp O   &kp P        &kp JP_AT
-&kp LSHFT &kp A  &kp S  &kp D    &kp F    &kp G                                 &kp H  &kp J    &kp K     &kp L   &kp JP_SEMI  &kp JP_COLON
-&kp LCTRL &kp Z  &kp X  &kp C    &kp V    &kp B  &kp JP_LBKT        &kp JP_RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp JP_SLASH &kp JP_BSLH
-&kp LGUI  &kp LALT      &lt 1 JP_MHEN            &lt 2 SPACE        &kp BSPC    &kp ENTER                         &kp JP_CARET &kp JP_YEN
-                 &tog 1 &kp ENTER                &lt 3 JP_HENK      &lt 1 ENTER                 &kp ENTER &tog 2
+&kp LCTRL &kp A  &kp S  &kp D    &kp F    &kp G                                 &kp H  &kp J    &kp K     &kp L   &kp JP_SEMI  &kp JP_COLON
+&kp LSHFT &kp Z  &kp X  &kp C    &kp V    &kp B  &kp JP_LBKT        &kp JP_RBKT &kp N  &kp M    &kp COMMA &kp DOT &kp JP_SLASH &kp JP_BSLH
+&kp LALT  &kp LGUI               &lt 1 JP_MHEN   &lt 2 SPACE        &kp BSPC    &kp ENTER                         &kp JP_CARET &kp JP_YEN
+                 &tog 2 &kp ENTER                &lt 3 JP_HENK      &lt 1 ENTER                 &kp ENTER &tog 2
                                                  &kp LG(C)          &kp LG(V)
           &mo 1  &mo 2  &mo 3                                                                   &mo 1     &mo 2   &mo 3
+                                                 &mo 1    &mo 2     &mo 3  
             >;
 
             sensor-bindings = <
@@ -34,7 +35,7 @@
 
         layer_1 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR_ALL      &trans  &trans  &trans  &trans  &trans  &studio_unlock
 &trans  &trans  &trans  &trans  &trans  &trans                              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -42,6 +43,7 @@
                 &trans  &trans                  &trans              &trans                  &trans  &trans
                                                 &trans              &trans
         &trans  &trans  &trans                                                              &trans  &trans  &trans
+                                                &trans    &trans    &trans 
             >;
         };
 
@@ -55,6 +57,7 @@
                                     &trans           &trans                                          &trans         &trans                                              &trans          &trans
                                                                                                      &trans         &trans
         &trans                      &trans           &trans                                                                                                             &trans          &trans                &trans
+                                                                                                     &trans &trans  &trans 
             >;
             sensor-bindings = <
                 &inc_dec_kp TAB LC(TAB) 
@@ -85,6 +88,7 @@
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
         &trans  &trans  &trans                                                      &trans  &trans  &trans
+                                               &trans &trans &trans
             >;
         };
 
@@ -98,6 +102,7 @@
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
         &trans  &trans  &trans                                                      &trans  &trans  &trans
+                                               &trans &trans &trans
             >;
         };
 
@@ -111,6 +116,7 @@
                 &trans  &trans                  &trans      &trans                  &trans  &trans
                                                 &trans      &trans
         &trans  &trans  &trans                                                      &trans  &trans  &trans
+                                               &trans &trans &trans 
             >;
         };
     };
