@@ -26,5 +26,5 @@ include:
    shield: mtk64_L rgbled_adapter
 - board: seeeduino_xiao_ble
    shield: mtk64_FOOT rgbled_adapter
- - board: seeeduino_xiao_ble
+- board: seeeduino_xiao_ble
    shield: settings_reset
