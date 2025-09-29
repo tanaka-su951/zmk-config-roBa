@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: prospector
+      url-base: https://github.com/t-ogura
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
   projects:
@@ -14,7 +16,7 @@ manifest:
       revision: main
     - name: prospector-zmk-module
       remote: prospector
-      revision: v1.0.0
+      revision: v1.1.1
       path: modules/prospector-zmk-module
   self:
     path: config
