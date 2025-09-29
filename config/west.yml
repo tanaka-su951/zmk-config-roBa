@@ -4,6 +4,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mentako-ya
       url-base: https://github.com/mentako-ya
+    - name: prospector
+      url-base: https://github.com/prospector  # ← 追加しました
+
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,5 +22,7 @@ manifest:
       remote: prospector
       revision: v1.1.1
       path: modules/prospector-zmk-module
+
   self:
     path: config
+
